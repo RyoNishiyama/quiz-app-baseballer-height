@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data quiz: “6 feet hacking” pro baseball player’s self-proclaimed height</title>
+  <meta name="description" content="Data quiz. Professional baseball player in four countries is likely to tell lies about their hight, according to data from each league's website.">
+	<meta property="og:title" content="Data quiz: “6 feet hacking” pro baseball player’s self-proclaimed height" itemprop="name">
+	<meta property="og:description" content="Data quiz. Professional baseball player in four countries is likely to tell lies about their hight and weight, according to data from each league's website." itemprop="description">
+	<meta property="og:image" content="lidom_height_ft_highlight.png" itemprop="image">
+	<link rel='icon' type='image/png' href='./favicon.png'>
+  <link rel='stylesheet' href='./global.css'>
+</head>
+<body>
+	<div class="title-label-wrapper"><span class="title-label">Data analysis</span></div>
+	<h1>"6 feet hacking"</h1>
+  <h4 class="sub-title">Professional baseball player's lies about height</h4>
+	<div>
+		<img class="header-img" src="./images/header.jpeg" alt="Image of the ballpark">
+	</div>
+	<div class="lead-paragrah">Let's start your journey to baseball players lies here</div>
+  <div class="typing-area">
+    <span id="ityped"></span>
+    <span id="auto-typing"></span>
+    <span class="typing-cursor">|</span>
+  </div>
+  <div id="chat-area">
+    <div class="questioner">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">Do you think baseball players tell lies about thier height?</p>
+      </div>
+    </div>
+    <div id="a1y" class="respondent" style="display: none;">
+      <div class="respondent-txt-area">
+        <p class="respondent-name">You</p>
+        <p class="respondent-txt">Yes, I do</p>
+      </div>
+    </div>
+    <div id="a1n" class="respondent" style="display: none;">
+      <div class="respondent-txt-area">
+        <p class="respondent-name">You</p>
+        <p class="respondent-txt">No, I don't</p>
+      </div>
+    </div>
+    <div id="q1y" class="questioner" style="display: none;">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">That's right! Look at this chart. This is the histogram of players' height in Dominican league.</p>
+        <img class="questioner-post-img" src="./images/lidom_height.png" alt="The histogram of players' height in Dominican league">
+      </div>
+    </div>
+    <div id="q1n" class="questioner" style="display: none;">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">Actually, there are doubtful facts. Look at this chart. This is the histogram of players' height in Dominican league.</p>
+        <img class="questioner-post-img" src="./images/lidom_height.png" alt="The histogram of players' height in Dominican league">
+      </div>
+    </div>
+    <div id="a2y" class="respondent" style="display: none;">
+      <div class="respondent-txt-area">
+        <p class="respondent-name">You</p>
+        <p class="respondent-txt">The destribution looks strange.</p>
+      </div>
+    </div>
+    <div id="a2n" class="respondent" style="display: none;">
+      <div class="respondent-txt-area">
+        <p class="respondent-name">You</p>
+        <p class="respondent-txt">What's the problem?</p>
+      </div>
+    </div>
+    <div id="q2y" class="questioner" style="display: none;">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">You are perceptive. Dominican player's is likely to have lied thier height. The most frequent tall is 72 inches, just 6 feet. They may want to pretend 6 feet. This is "6 feet hacking".</p>
+        <img class="questioner-post-img" src="./images/lidom_height_ft_highlight.png" alt="The histogram of players' height in feet notation in Dominican league">
+      </div>
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">How do you think about the top leage MLB's height graph.</p>
+      </div>
+    </div>
+    <div id="q2n" class="questioner" style="display: none;">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">Look carefully. Dominican player's is likely to have lied thier height. The most frequent tall is 72 inches, just 6 feet. They may want to pretend 6 feet. This is "6 feet hacking".</p>
+        <img class="questioner-post-img" src="./images/lidom_height_ft_highlight.png" alt="The histogram of players' height in feet notation in Dominican league">
+      </div>
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">How do you think about the top leage MLB's height graph.</p>
+      </div>
+    </div>
+    <div id="a3y" class="respondent" style="display: none;">
+      <div class="respondent-txt-area">
+        <p class="respondent-name">You</p>
+        <p class="respondent-txt">The graph is natural.</p>
+      </div>
+    </div>
+    <div id="a3n" class="respondent" style="display: none;">
+      <div class="respondent-txt-area">
+        <p class="respondent-name">You</p>
+        <p class="respondent-txt">The graph is suspicious.</p>
+      </div>
+    </div>
+    <div id="q3y" class="questioner" style="display: none;">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">You have the right idea. The graph is propotional. Thus, Dominican is liley to tell a lie about their height.</p>
+        <img class="questioner-post-img" src="./images/mlb_height.png" alt="The histogram of players' height in MLB">
+      </div>
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">How is the Japanese league. Japan won the Tokyo Olympics in baseball.</p>
+      </div>
+    </div>
+    <div id="q3n" class="questioner" style="display: none;">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">You are wrong. The graph is a normal distribution which is propotional shape. Thus, Dominican is liley to tell a lie about their height.</p>
+        <img class="questioner-post-img" src="./images/mlb_height.png" alt="The histogram of players' height in MLB">
+      </div>
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">How would you predict the graph of Japanese league? The country is a baseball powerhouse.</p>
+      </div>
+    </div>
+    <div id="a4y" class="respondent" style="display: none;">
+      <div class="respondent-txt-area">
+        <p class="respondent-name">You</p>
+        <p class="respondent-txt">The players are honest.</p>
+      </div>
+    </div>
+    <div id="a4n" class="respondent" style="display: none;">
+      <div class="respondent-txt-area">
+        <p class="respondent-name">You</p>
+        <p class="respondent-txt">The players have lied about height.</p>
+      </div>
+    </div>
+    <div id="q4y" class="questioner" style="display: none;">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">Unfortunately you are mistaken. The graph has a unnatural valley of 179 cm. They are likely to tell a lie about their height.</p>
+        <img class="questioner-post-img" src="./images/npb_height_anno.png" alt="The histogram of players' height in Japanese league">
+      </div>
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">How is the weight graph? Do they also tell a lie?</p>
+      </div>
+    </div>
+    <div id="q4n" class="questioner" style="display: none;">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">Exactly! The graph has a unnatural valley of 179 cm. The distribution is doubtful.</p>
+        <img class="questioner-post-img" src="./images/npb_height_anno.png" alt="The histogram of players' height in Japanese league">
+      </div>
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">Do you think about the graph of the weight?</p>
+      </div>
+    </div>
+    <div id="a5y" class="respondent" style="display: none;">
+      <div class="respondent-txt-area">
+        <p class="respondent-name">You</p>
+        <p class="respondent-txt">Players are honest about their weight.</p>
+      </div>
+    </div>
+    <div id="a5n" class="respondent" style="display: none;">
+      <div class="respondent-txt-area">
+        <p class="respondent-name">You</p>
+        <p class="respondent-txt">The weight graph also suspicious.</p>
+      </div>
+    </div>
+    <div id="q5y" class="questioner" style="display: none;">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">Thank you for staying with me to the end!</p>
+      </div>
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">Please check the answer on the following link! <a href="https://ryonishiyama.github.io/svelte-scrolly-baseballer-height/" target="_blank">https://ryonishiyama.github.io/svelte-scrolly-baseballer-height/</a></p>
+      </div>
+    </div>
+    <div id="q5n" class="questioner" style="display: none;">
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">Thank you so much for taking the time to chat with me!</p>
+      </div>
+      <div class="questioner-txt-area">
+        <p class="questioner-name">Data analyst</p>
+        <p class="questioner-txt">Detail is written on the following link! <a href="https://ryonishiyama.github.io/svelte-scrolly-baseballer-height/" target="_blank">https://ryonishiyama.github.io/svelte-scrolly-baseballer-height/</a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="btn-area">
+    <button class="a1y" id="yes-btn">Yes, I do</button>
+    <button class="a1n" id="no-btn">No, I don't</button>
+  </div>
+</body>
+<script>
+  const typingTxt = "The players in four countries is likely to tell lies about their hight, according to data from each league's website. ";
+  const typingAreaElem = document.getElementById("auto-typing");
+  let sortTxt = ""
+
+  const sleep = waitTime => new Promise( resolve => setTimeout(resolve, waitTime) );
+  window.onload = (event) => {
+    (async() => {
+      for (i in typingTxt) {
+        sortTxt += typingTxt[i];
+        typingAreaElem.textContent = sortTxt;
+        await sleep(50);
+      }
+    })();
+  };
+
+  let yesBtn = document.getElementById('yes-btn');
+  let noBtn = document.getElementById('no-btn');
+  yesBtn.addEventListener('click', btnClick);
+  noBtn.addEventListener('click', btnClick);
+
+  yesBtnTxtList = ["Yes, I do", "The destribution looks strange.", "The graph is natural.", "The players are honest.", "Players are honest about their weight."];
+  noBtnTxtList = ["No, I don't", "What's the problem?", "The graph is suspicious.", "The players have lied about height.", "The weight graph also suspicious."];
+
+  function btnClick(e){
+    let yesBtnElem = document.getElementById("yes-btn");
+    let noBtnElem = document.getElementById("no-btn");
+    let pressedBtnClass = e.target.className;
+    let visibleElem = document.getElementById(pressedBtnClass);
+    visibleElem.style.display = "";
+    scrollDown();
+    displayId = "q" + pressedBtnClass.slice(1,3);
+    btnTxtNum = pressedBtnClass.slice(1,2);
+    nextBtnNum = parseInt(btnTxtNum) + 1;
+    (async() => {
+      await sleep(1000);
+      let visibleElem = document.getElementById(displayId);
+      visibleElem.style.display = "";
+      scrollDown();
+      if (btnTxtNum < 5) {
+        yesBtnElem.textContent = yesBtnTxtList[btnTxtNum];
+        noBtnElem.textContent = noBtnTxtList[btnTxtNum];
+        yesBtnElem.setAttribute('class', "a" + nextBtnNum + "y");
+        noBtnElem.setAttribute('class', "a" + nextBtnNum + "n");
+      } else {
+        yesBtnElem.disabled = true;
+        noBtnElem.disabled = true;
+      }
+    })();
+  }
+
+  function scrollDown() {
+    let chatArea = document.getElementById('chat-area'),
+    chatAreaHeight = chatArea.scrollHeight;
+    chatArea.scrollTop = chatAreaHeight;
+  }
+</script>
+</html>
